@@ -3,8 +3,9 @@
 import { motion } from "framer-motion";
 
 const logos = [
-    "Acme Corp", "GlobalTech", "Nexus", "Quantum", "Apex Media", "Stratos", "Zephyr Brands",
-    "Acme Corp", "GlobalTech", "Nexus", "Quantum", "Apex Media", "Stratos", "Zephyr Brands" // Duplicated to ensure seamless marquee loop
+    "GetStatsure", "FinancialPandit", "PubFitness", "NextRole",
+    "GetStatsure", "FinancialPandit", "PubFitness", "NextRole",
+    "GetStatsure", "FinancialPandit", "PubFitness", "NextRole" // Duplicated to ensure seamless marquee loop
 ];
 
 export default function CredibilitySection() {
@@ -19,7 +20,7 @@ export default function CredibilitySection() {
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className="text-gray-500 text-xs font-medium tracking-widest uppercase mb-8 text-center"
             >
-                Trusted by high-growth companies
+                Powering Ambitious Brands
             </motion.p>
 
             {/* Marquee Wrapper with edge masks */}
@@ -44,7 +45,7 @@ export default function CredibilitySection() {
                   Using text as placeholders for logos. 
                   In production, replace with <img src={logo.src} /> 
                 */}
-                            <span className="text-base md:text-lg font-bold text-gray-700/60 font-mono tracking-tight grayscale opacity-80 hover:opacity-100 hover:text-gray-400 transition-all duration-300">
+                            <span className="text-base md:text-lg font-bold text-gray-500 font-mono tracking-tight grayscale opacity-70 hover:opacity-100 hover:text-primary transition-all duration-300">
                                 {logo}
                             </span>
                         </div>
