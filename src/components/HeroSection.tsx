@@ -1,16 +1,9 @@
 "use client";
 
-import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
+import { motion } from "framer-motion";
 import { AnimatedHeadline } from "./AnimatedHeadline";
 
 export default function HeroSection() {
-    const { scrollY } = useScroll();
-    const shouldReduceMotion = useReducedMotion();
-
-    // Conditionally disable parallax if user prefers reduced motion
-    const y = useTransform(scrollY, [0, 500], [0, shouldReduceMotion ? 0 : 150]);
-    const opacity = useTransform(scrollY, [0, 300], [1, 0]);
-
     return (
         <section className="relative min-h-[100vh] flex flex-col items-center justify-center pt-[120px] pb-[120px] overflow-hidden bg-[#050505] selection:bg-purple-500/30">
             {/* Background Layers */}
@@ -21,30 +14,23 @@ export default function HeroSection() {
             />
 
             {/* Content Layer */}
-            <motion.div
-                style={{ y, opacity }}
+            <div
                 className="relative z-30 w-full max-w-[1100px] px-4 flex flex-col items-center justify-center mx-auto text-center"
             >
-                <motion.span
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.1, duration: 0.8, ease: "easeOut" }}
+                <span
                     className="px-5 py-2 rounded-full border border-gray-800 bg-gray-900/50 backdrop-blur-sm text-gray-300 text-sm font-medium tracking-wide mb-[24px] shadow-sm flex items-center justify-center gap-2 mx-auto"
                 >
                     <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
                     Scaling global brands
-                </motion.span>
+                </span>
 
                 <AnimatedHeadline />
 
-                <motion.p
-                    initial={{ opacity: 0, y: 10, filter: "blur(5px)" }}
-                    animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                    transition={{ delay: 0.7, duration: 1, ease: "easeOut" }}
+                <p
                     className="text-base md:text-lg text-gray-400 mb-10 max-w-2xl leading-relaxed font-light"
                 >
                     We build high-performance websites, scalable marketing systems, and high-converting video assets to dominate your market.
-                </motion.p>
+                </p>
 
                 {/* =========================================
                     AUTO-SCROLLING VIDEO MARQUEE
@@ -80,17 +66,8 @@ export default function HeroSection() {
                 </div>
 
                 <motion.button
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.98 }}
-                    transition={{
-                        delay: 0.9,
-                        type: "spring",
-                        stiffness: 100,
-                        damping: 15,
-                        mass: 1
-                    }}
                     className="group relative px-8 py-4 bg-white text-black font-semibold rounded-full shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_60px_rgba(255,255,255,0.3)] transition-shadow"
                 >
                     <span className="relative z-10 flex items-center gap-2">
@@ -100,7 +77,7 @@ export default function HeroSection() {
                         </svg>
                     </span>
                 </motion.button>
-            </motion.div>
+            </div>
         </section>
     );
 }
