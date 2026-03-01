@@ -21,7 +21,7 @@ export default function HeroSection() {
                     className="px-5 py-2 rounded-full border border-gray-800 bg-gray-900/50 backdrop-blur-sm text-gray-300 text-sm font-medium tracking-wide mb-[24px] shadow-sm flex items-center justify-center gap-2 mx-auto"
                 >
                     <span className="w-2 h-2 rounded-full bg-blue-500 animate-pulse" />
-                    Scaling global brands
+                    <span className="hero-badge">Scaling global brands</span>
                 </span>
 
                 <AnimatedHeadline />
