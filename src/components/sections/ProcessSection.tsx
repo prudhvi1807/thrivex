@@ -6,18 +6,18 @@ import { useRef } from "react";
 const steps = [
     {
         number: "01",
-        title: "Discovery & Architecture",
-        description: "We don't guess. We analyze your market, audit your current assets, and mathematically map out the exact funnels, copy, and features needed to win.",
+        title: "Strategy & Growth Mapping",
+        description: "We audit your brand, offers, funnels, and traffic sources. Then we map the exact growth architecture required to scale.",
     },
     {
         number: "02",
-        title: "High-Fidelity Engineering",
-        description: "Our engineers and designers build custom Next.js applications, high-converting video assets, and precise UI systems. No templates. No shortcuts.",
+        title: "Build & Deploy Infrastructure",
+        description: "We build high-performance websites, high-converting video assets, and integrated marketing systems designed to work together.",
     },
     {
         number: "03",
-        title: "Launch & Iterate",
-        description: "We deploy the systems, monitor the analytics, and iteratively optimize the conversion rates. Scale happens when data replaces intuition.",
+        title: "Optimize & Scale",
+        description: "We track user behavior, refine conversion paths, and continuously optimize your growth engine.",
     }
 ];
 
@@ -44,11 +44,11 @@ export default function ProcessSection() {
                         >
                             The <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-600">
-                                Methodology.
+                                Growth Methodology.
                             </span>
                         </motion.h2>
                         <p className="text-gray-400 text-base leading-relaxed max-w-sm">
-                            A disciplined, three-step framework designed to eliminate risk and force growth.
+                            A structured system designed to engineer predictable, scalable growth.
                         </p>
                     </div>
                 </div>
