@@ -5,6 +5,7 @@ import CredibilitySection from "@/components/sections/CredibilitySection";
 import ServicesSection from "@/components/sections/ServicesSection";
 import ProcessSection from "@/components/sections/ProcessSection";
 import CaseStudiesSection from "@/components/sections/CaseStudiesSection";
+import TeamSection from "@/components/sections/TeamSection";
 import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import FinalCTASection from "@/components/sections/FinalCTASection";
 
@@ -26,6 +27,10 @@ export default function Home() {
 
       <div id="case-studies">
         <CaseStudiesSection />
+      </div>
+
+      <div id="team">
+        <TeamSection />
       </div>
 
       <TestimonialsSection />
