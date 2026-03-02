@@ -9,19 +9,19 @@ const teamMembers = [
         name: "Prudhvi",
         role: "Co-Founder and technical head",
         description: "Crafting intuitive digital experiences and premium SaaS interfaces that drive unparalleled growth and user engagement.",
-        image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772461255/Gemini_Generated_Image_4ng9fl4ng9fl4ng9_miv4ob.png",
+        video: "https://res.cloudinary.com/dwye1ye9z/video/upload/v1772469445/Recording_2026-03-02_215632_epx6vh.mp4",
     },
     {
         name: "Srishanth",
         role: "Co-Founder and automation head",
         description: "Architecting scalable, high-performance digital systems and complex engineering solutions.",
-        image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772458038/thrivex-03_m6bp2u.png",
+        video: "https://res.cloudinary.com/dwye1ye9z/video/upload/v1772470116/Recording_2026-03-02_215731_jljxba.mp4",
     },
     {
         name: "Adithya",
         role: "Co-Founder and marketing head",
         description: "Scaling digital products through data-driven marketing, conversion rate optimization, and brand positioning strategies.",
-        image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772458056/vex-2_slxkyc.png",
+        video: "https://res.cloudinary.com/dwye1ye9z/video/upload/v1772469875/Recording_2026-03-02_215620_japgdd.mp4",
     }
 ];
 
@@ -79,12 +79,14 @@ export default function TeamSection() {
                             {/* Image Container */}
                             <div className="w-full md:w-[45%] h-[350px] md:h-full aspect-[4/5] md:aspect-square overflow-hidden rounded-[16px] relative shrink-0">
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10 pointer-events-none" />
-                                <Image
-                                    src={member.image}
-                                    alt={member.name}
-                                    fill
-                                    className="object-cover object-top filter contrast-[1.05] opacity-90 transition-transform duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105"
-                                    sizes="(max-width: 768px) 100vw, 50vw"
+                                <video
+                                    src={member.video}
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    preload="auto"
+                                    className="w-full h-full object-cover object-top opacity-90 transition-transform duration-[800ms] ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 relative z-0"
                                 />
                             </div>
 
