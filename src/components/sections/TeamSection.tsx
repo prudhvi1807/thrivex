@@ -14,7 +14,7 @@ const teamMembers = [
     {
         name: "Srishanth",
         role: "Co-Founder and automation head",
-        description: "Architecting scalable, high-performance web systems and complex front-end engineering solutions for top-tier brands.",
+        description: "Architecting scalable, high-performance digital systems and complex engineering solutions.",
         image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772458038/thrivex-03_m6bp2u.png",
     },
     {

@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 const testimonials = [
     {
-        quote: "Thrivex didn't just build us a website. They engineered a client acquisition machine. Our CPL dropped by 40% in the first month.",
-        author: "Sarah Jenkins",
-        role: "Founder, Apex Capital",
+        quote: "Working with Thrivex completely transformed how we position FinancialPandit online. The clarity in messaging, premium interface, and structured funnel gave our brand instant authority. Clients now trust us before even speaking to us. The difference in perception and lead quality has been remarkable.",
+        author: "Prashanth Ajoke",
+        role: "CEO, FinancialPandit",
     },
     {
-        quote: "The combination of their VSL production and web architecture is unmatched. The perceived value of our brand 10x'd overnight.",
-        author: "David Chen",
-        role: "CEO, Quantum SaaS",
+        quote: "As a CA firm, credibility is everything. Thrivex understood that deeply. They didn't just design a website — they built a digital presence that reflects professionalism and trust. Our online inquiries became more serious, and our brand now feels aligned with the quality of service we deliver.",
+        author: "Sarath Kumar",
+        role: "Founder, GetStatsure",
     },
     {
-        quote: "We were burning cash on ads that didn't convert. They stepped in, rebuilt the funnel, and scaled us to $120k MRR.",
-        author: "Marcus Rivera",
-        role: "E-Commerce Director",
+        quote: "We struggled to communicate our vision clearly online. Thrivex helped us refine our identity and present PubFitness as a premium fitness destination. The structure, design, and overall user experience now reflect the energy and standards we maintain inside our studio.",
+        author: "Prakash",
+        role: "Founder, PubFitness Studio",
     }
 ];
 
