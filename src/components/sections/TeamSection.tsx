@@ -6,16 +6,16 @@ import Image from "next/image";
 
 const teamMembers = [
     {
-        name: "Prudhvi",
-        role: "Co-Founder and technical head",
-        description: "Crafting intuitive digital experiences and premium SaaS interfaces that drive unparalleled growth and user engagement.",
-        image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772461255/Gemini_Generated_Image_4ng9fl4ng9fl4ng9_miv4ob.png",
-    },
-    {
         name: "Srishanth",
         role: "Co-Founder and automation head",
         description: "Architecting scalable, high-performance digital systems and complex engineering solutions.",
         image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772458038/thrivex-03_m6bp2u.png",
+    },
+    {
+        name: "Prudhvi",
+        role: "Co-Founder and technical head",
+        description: "Building high-performance web and mobile applications that deliver exceptional user experiences and scalable infrastructure.",
+        image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772461255/Gemini_Generated_Image_4ng9fl4ng9fl4ng9_miv4ob.png",
     },
     {
         name: "Adithya",
