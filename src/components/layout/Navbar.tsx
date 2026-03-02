@@ -66,7 +66,10 @@ export default function Navbar() {
 
                 {/* Right: CTA & Mobile Hamburger */}
                 <div className="flex items-center gap-4">
-                    <motion.button
+                    <motion.a
+                        href="https://wa.me/919381871936?text=Hi%20Thrivex,%20I%20would%20like%20to%20book%20a%20strategy%20call."
+                        target="_blank"
+                        rel="noopener noreferrer"
                         whileHover={{
                             scale: 1.05,
                             y: -2,
@@ -76,7 +79,7 @@ export default function Navbar() {
                         className="hidden sm:flex items-center justify-center px-[22px] py-[10px] bg-primary text-black font-semibold text-sm rounded-full shadow-[0_0_20px_rgba(251,255,10,0.25)]"
                     >
                         Book a Call
-                    </motion.button>
+                    </motion.a>
 
                     {/* Mobile Menu Toggle */}
                     <button
@@ -138,13 +141,16 @@ export default function Navbar() {
                             </div>
 
                             <div className="mt-auto pt-12">
-                                <motion.button
+                                <motion.a
+                                    href="https://wa.me/919381871936?text=Hi%20Thrivex,%20I%20would%20like%20to%20book%20a%20strategy%20call."
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     whileHover={{ scale: 1.05, y: -2, boxShadow: "0px 0px 40px rgba(251,255,10,0.5)" }}
                                     transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-                                    className="w-full py-4 bg-primary text-black font-bold rounded-full text-lg shadow-[0_0_20px_rgba(251,255,10,0.25)]"
+                                    className="block text-center w-full py-4 bg-primary text-black font-bold rounded-full text-lg shadow-[0_0_20px_rgba(251,255,10,0.25)]"
                                 >
                                     Book a Call
-                                </motion.button>
+                                </motion.a>
                             </div>
                         </motion.div>
                     </motion.div>

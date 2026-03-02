@@ -28,7 +28,10 @@ export default function FinalCTASection() {
                         Book a free strategy session. We'll audit your current funnels, map out a custom growth architecture, and show you exactly what's leaving money on the table.
                     </p>
 
-                    <motion.button
+                    <motion.a
+                        href="https://wa.me/919381871936?text=Hi%20Thrivex,%20I%20would%20like%20to%20book%20a%20strategy%20call."
+                        target="_blank"
+                        rel="noopener noreferrer"
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.98 }}
                         transition={{ type: "spring", stiffness: 400, damping: 25 }}
@@ -38,7 +41,7 @@ export default function FinalCTASection() {
                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                         </svg>
-                    </motion.button>
+                    </motion.a>
                 </div>
             </motion.div>
 

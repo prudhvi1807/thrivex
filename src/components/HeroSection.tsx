@@ -82,13 +82,16 @@ export default function HeroSection() {
                 </div>
 
                 {/* CTA */}
-                <motion.button
+                <motion.a
+                    href="https://wa.me/919381871936?text=Hi%20Thrivex,%20I%20would%20like%20to%20book%20a%20strategy%20call."
+                    target="_blank"
+                    rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.98 }}
-                    className="px-8 py-4 bg-white text-black font-semibold rounded-full shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_60px_rgba(255,255,255,0.3)] transition-all"
+                    className="inline-block px-8 py-4 bg-white text-black font-semibold rounded-full shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_60px_rgba(255,255,255,0.3)] transition-all"
                 >
                     Book Strategy Call
-                </motion.button>
+                </motion.a>
 
             </div>
         </section>
