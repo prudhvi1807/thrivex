@@ -11,7 +11,7 @@ const heroVideos = [
 
 export default function HeroSection() {
     return (
-        <section className="relative min-h-screen flex flex-col items-center justify-center pt-[120px] pb-[120px] overflow-hidden bg-[#050505]">
+        <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center pt-[120px] pb-[120px] overflow-hidden bg-[#050505]">
 
             {/* Background Mesh */}
             <div className="absolute inset-0 z-10 bg-mesh pointer-events-none" />
