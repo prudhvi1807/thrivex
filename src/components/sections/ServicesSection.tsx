@@ -90,23 +90,24 @@ export default function ServicesSection() {
                                 {/* Abstract mesh behind the visual */}
                                 <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent blur-[80px]" />
 
-                                {/* Wireframe UI representation */}
-                                <div className="w-full max-w-sm h-full max-h-[340px] rounded-2xl border border-white/10 bg-[#0A0A0A] shadow-2xl relative flex flex-col overflow-hidden">
-                                    {/* Browser bar */}
-                                    <div className="h-10 border-b border-white/10 flex items-center px-4 gap-2 bg-white/[0.02]">
-                                        <div className="w-3 h-3 rounded-full bg-white/20" />
-                                        <div className="w-3 h-3 rounded-full bg-white/20" />
-                                        <div className="w-3 h-3 rounded-full bg-white/20" />
+                                {/* Video UI representation */}
+                                <div className="w-full max-w-sm h-[260px] md:h-[320px] rounded-[16px] border border-white/10 bg-[#0A0A0A] shadow-2xl relative overflow-hidden">
+                                    {/* Browser bar dots (Absolute) */}
+                                    <div className="absolute top-4 left-4 z-20 flex items-center gap-2">
+                                        <div className="w-2.5 h-2.5 rounded-full bg-white/20" />
+                                        <div className="w-2.5 h-2.5 rounded-full bg-white/20" />
+                                        <div className="w-2.5 h-2.5 rounded-full bg-white/20" />
                                     </div>
-                                    {/* Content representation */}
-                                    <div className="p-6 flex flex-col gap-5 flex-1 justify-center">
-                                        <div className="w-3/4 h-8 rounded bg-white/[0.05]" />
-                                        <div className="w-1/2 h-4 rounded bg-primary/20" />
-                                        <div className="grid grid-cols-2 gap-4 mt-6">
-                                            <div className="h-28 rounded bg-white/[0.03]" />
-                                            <div className="h-28 rounded bg-white/[0.03]" />
-                                        </div>
-                                    </div>
+
+                                    {/* Video */}
+                                    <video
+                                        src="https://res.cloudinary.com/dxtdv6etl/video/upload/q_auto/f_auto/v1775130158/jhgc_uux1u1.mp4"
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        className="absolute inset-0 w-full h-full object-cover z-10"
+                                    />
                                 </div>
                             </div>
                         </motion.div>

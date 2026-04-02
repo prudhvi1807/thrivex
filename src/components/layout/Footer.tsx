@@ -20,7 +20,7 @@ export default function Footer() {
                 <div className="flex items-center gap-5 mb-11">
                     <a href="#" className="font-semibold text-gray-400 hover:text-white transition-colors text-sm">Twitter</a>
                     <a href="#" className="font-semibold text-gray-400 hover:text-white transition-colors text-sm">LinkedIn</a>
-                    <a href="#" className="font-semibold text-gray-400 hover:text-white transition-colors text-sm">Instagram</a>
+                    <a href="https://www.instagram.com/thrivex.labs/" target="_blank" rel="noopener noreferrer" className="font-semibold text-gray-400 hover:text-white transition-colors text-sm">Instagram</a>
                 </div>
 
                 <div className="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-8" />
