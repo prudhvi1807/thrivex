@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 import { AnimatedHeadline } from "./AnimatedHeadline";
 
 const heroVideos = [
-    "https://res.cloudinary.com/dwye1ye9z/video/upload/v1772469445/Recording_2026-03-02_215632_epx6vh.mp4",
-    "https://res.cloudinary.com/dwye1ye9z/video/upload/v1772470116/Recording_2026-03-02_215731_jljxba.mp4",
-    "https://res.cloudinary.com/dwye1ye9z/video/upload/v1772469875/Recording_2026-03-02_215620_japgdd.mp4",
+    "https://res.cloudinary.com/dxtdv6etl/video/upload/q_auto/f_auto/v1775128655/finacial_video_j8hsxv.mp4",
+    "https://res.cloudinary.com/dxtdv6etl/video/upload/q_auto/f_auto/v1775128201/pub_video_olwb7s.mp4",
+    "https://res.cloudinary.com/dxtdv6etl/video/upload/q_auto/f_auto/v1775128860/Recording_2026-04-02_165027_jt0tzz.mp4",
 ];
 
 export default function HeroSection() {
