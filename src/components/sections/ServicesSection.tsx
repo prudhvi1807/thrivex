@@ -124,6 +124,15 @@ export default function ServicesSection() {
                         whileHover={{ y: -6 }}
                         className="relative lg:col-span-1 p-8 md:p-10 rounded-[20px] bg-[#0E0E0E] border border-white/[0.06] hover:border-white/[0.15] hover:bg-[#121212] transition-colors duration-500 overflow-hidden flex flex-col"
                     >
+                        {/* Animated Cube Background */}
+                        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none rounded-[20px]">
+                            <div className="cube-container">
+                                <div className="cube-box">
+                                    <div className="cube-element"></div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="absolute top-4 right-6 text-[80px] md:text-[100px] font-extrabold text-white opacity-[0.03] select-none pointer-events-none leading-none z-0">
                             02
                         </div>
