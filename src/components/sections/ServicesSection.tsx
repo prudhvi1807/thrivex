@@ -177,17 +177,17 @@ export default function ServicesSection() {
 
                         <div className="relative z-10 flex flex-col h-full">
                             <h3 className="text-xl md:text-2xl font-bold text-white tracking-tight mb-4 pr-8">
-                                Professional Video Editing
+                                Custom App Development
                             </h3>
                             <p className="text-gray-400 text-[14px] md:text-[15px] leading-relaxed mb-8">
-                                We create high-impact video content that builds authority and drives engagement across platforms.
+                                We design and build robust, user-centric mobile applications engineered for fast performance and infinite scalability.
                             </p>
                             <ul className="flex flex-col gap-4 mt-auto">
                                 {[
-                                    "Short-Form Reels & Social Edits",
-                                    "YouTube & Long-Form Editing",
-                                    "Ad Creatives",
-                                    "Motion Graphics & Enhancements"
+                                    "Native iOS & Android Applications",
+                                    "Cross-Platform Hybrid Apps",
+                                    "Mobile UI/UX Design & Prototyping",
+                                    "Scalable Backend & Cloud APIs"
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-start gap-3 text-white/70 text-[14px]">
                                         <Plus className="w-4 h-4 text-gray-500 shrink-0 mt-[2px]" />

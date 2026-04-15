@@ -69,11 +69,11 @@ export default function HeroSection() {
                                     muted
                                     loop
                                     playsInline
-                                    preload="auto"
+                                    preload="metadata"
                                     disablePictureInPicture
                                     controls={false}
-                                    className="w-full h-full object-cover opacity-[0.9] contrast-[1.05] saturate-[1.1]"
-                                    style={{ backfaceVisibility: "hidden" }}
+                                    className="w-full h-full object-cover opacity-[0.9]"
+                                    style={{ backfaceVisibility: "hidden", transform: "translateZ(0)" }}
                                 />
                             </div>
                         ))}
