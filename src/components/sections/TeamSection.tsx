@@ -9,19 +9,19 @@ const teamMembers = [
         name: "Srishanth",
         role: "Co-Founder and automation head",
         description: "Architecting scalable, high-performance digital systems and complex engineering solutions.",
-        image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772458038/thrivex-03_m6bp2u.png",
+        image: "https://res.cloudinary.com/dxtdv6etl/image/upload/q_auto/f_auto/v1776258703/srishanth_gzhfbm.png",
     },
     {
         name: "Prudhvi",
         role: "Co-Founder and technical head",
         description: "Building high-performance web and mobile applications that deliver exceptional user experiences and scalable infrastructure.",
-        image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772461255/Gemini_Generated_Image_4ng9fl4ng9fl4ng9_miv4ob.png",
+        image: "https://res.cloudinary.com/dxtdv6etl/image/upload/q_auto/f_auto/v1776258681/prudhvi_raul8h.png",
     },
     {
         name: "Adithya",
         role: "Co-Founder and marketing head",
         description: "Scaling digital products through data-driven marketing, conversion rate optimization, and brand positioning strategies.",
-        image: "https://res.cloudinary.com/dwye1ye9z/image/upload/v1772458056/vex-2_slxkyc.png",
+        image: "https://res.cloudinary.com/dxtdv6etl/image/upload/q_auto/f_auto/v1776258660/adithya_f1ndtk.png",
     }
 ];
 
